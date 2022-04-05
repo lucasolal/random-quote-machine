@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Bellota&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #151515;
+  height: 100vh;
+  margin: 0;
+}
+
+#main-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+}
+
+h1 {
+  background-color: #151515;
+  border-bottom: 1px white solid;
+  width: 100%;
+  color: white;
+  position: fixed;
+  top: 0;
+  padding-bottom: 5px;
+  text-align: center;
+  font-family: "Candara", sans-serif;
+}
+
+#quote-box {
+  width: 600px;
+  background-color: crimson;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 25px 25px 15px 25px;
+  transition: background-color 2s;
+}
+
+#author {
+  color: white;
+  text-align: right;
+}
+
+#text {
+  font-size: 2em;
+  font-family: "Bellota", serif;
+  color: white;
+}
+
+#author {
+  font-family: "Bellota", serif;
+}
+
+#author {
+  text-align: right;
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+#quote-box-interface {
+  margin: 0;
+  padding: 0;
+  margin-top: 45px;
+}
+
+#tweet-quote {
+  font-size: 2em;
+  background-color: white;
+  margin-left: auto;
+  margin-right: 30px;
+  padding: 0 10px 0 10px;
+  margin-top: 0;
+  border-radius: 5px;
+}
+
+#new-quote {
+  color: black;
+  background-color: white;
+}
+
+footer {
+  background-color: #151515;
+  border-top: 1px grey solid;
+  width: 100%;
+  color: white;
+  margin: 0px 0px 10px 10px;
+  margin-left: 0;
+  margin-bottom: 0;
+}
+
+#footer-text {
+  padding-top: 5px;
+  margin: 0;
+  text-align: center;
+}
